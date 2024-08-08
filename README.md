@@ -23,7 +23,7 @@ The following tests are failed expectedly:
 
 ### How to run
 Before starting check that NodeJs with NPM manager has already been installed
-1. Clone the repo with command:
+1. Clone the repo by executing command:
    ```sh
    git clone https://github.com/Kostya575675/test-task-cypress.git
    ```
@@ -31,11 +31,11 @@ Before starting check that NodeJs with NPM manager has already been installed
    ```sh
    npm install
    ```
-3. For execution test on headed mode run:
+3. For execution test in headed mode run:
    ```sh
    npm run cy:run-headed
    ```
-4. For execution test on headless mode run:
+4. For execution test in headless mode run:
    ```sh
    npm run cy:run-headless
    ```
