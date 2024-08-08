@@ -1,0 +1,6 @@
+#Basic dirs and files
+node_modules
+reports
+cypress/videos
+cypress/screenshots
+package-lock.json
