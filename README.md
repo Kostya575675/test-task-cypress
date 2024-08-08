@@ -11,7 +11,7 @@ This simple UI test automation project covers the following checklist`s points o
 * Check that only input data displays after submitting
 
 ### Caution
-    The following tests are failed expectedly:
+The following tests are failed expectedly:
 * Check that all input fields have placeholders -> Due to absense of one placeholder
 * Check that all submitted data with titles are present and correct -> Due to incorrect title that does not fit the label
 * Check that only input data displays after submitting -> unstable because of potential issue mentioned above
@@ -25,7 +25,7 @@ This simple UI test automation project covers the following checklist`s points o
 Before starting check that NodeJs with NPM manager has already been installed
 1. Clone the repo with command:
    ```sh
-   git clone <link to current repo>
+   git clone https://github.com/Kostya575675/test-task-cypress.git
    ```
 2. Install npm packages by running:
    ```sh
@@ -44,7 +44,7 @@ Before starting check that NodeJs with NPM manager has already been installed
    npm run cy:open
    ```
 
-### Project structure:
+### Project structure
 - [ ] config
     - [x] cypress.config.js
 - [ ] cypess
